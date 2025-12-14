@@ -71,5 +71,9 @@ int main()
      dp.swap(new_dp) ;
   }
 
+  int fullMask = (1<<p)-1;
+  cout<<dp[fullMask]<<endl;
+  return 0;
+
 
 }
